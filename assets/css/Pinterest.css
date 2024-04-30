@@ -285,6 +285,7 @@
   align-items: center;
   margin-bottom: 185px;
 }
+
 .ftext {
   text-align: center;
   font-size: 60px;
@@ -560,7 +561,7 @@
 }
 
 .last-img {
-  background-image: url(/image/fourth_block/lastbg.png);
+  background: url(../image/fourth_block/lastbg.png);
   background-repeat: no-repeat;
   background-size: cover;
   /* background-attachment: fixed;     */
@@ -702,11 +703,10 @@ footer {
   color: #111111 !important;
   padding-right: 10px !important;
   padding-left: 10px !important;
- 
 }
 
 .footer-link:hover {
- text-decoration: underline;
+  text-decoration: underline;
 }
 
 ::-webkit-scrollbar {
